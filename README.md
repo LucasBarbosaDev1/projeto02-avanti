@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
+<h1 align="center">
+    <img alt="Projeto2-avanti" title="Projeto2-avanti" src="public/projeto02.png" />
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3 align="center"> 
+	🚧 Projeto2 - Busca de Perfil no GitHub 🚧
+</h3>
 
-Currently, two official plugins are available:
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-desempenho-no-pagespeed-insights">Desempenho PageSpeed Insights</a> • 
+ <a href="#-contribuidores">Contribuidores</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 💻 Sobre o projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📄 Projeto 2 do teste técnico da Avanti Innovation Class.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ Funcionalidades
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [x] Funcionalidades:
+  - [x] Busca de perfil do GitHub.
+  - [x] Carregamento entre as requisições.
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛣️ Visualização da aplicação no ar
+
+[Projeto2](https://projeto02-avanti.netlify.app/)
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+-   **HTML**
+-   **CSS**
+-   **TypeScript**
+-   **React**
+-   **Vite**
+
+---
+
+## 📊 Desempenho no PageSpeed Insights
+
+[PageSpeed](https://pagespeed.web.dev/analysis/https-projeto02-avanti-netlify-app/hzizp2xhur?form_factor=mobile)
+
+## 👨‍💻 Contribuidores
+
+
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/lucasbarbosadev1/"><img style="border-radius: 50%;" src="assets/perfilREADME.webp" width="100px;" alt=""/><br /><sub><b>Lucas Barbosa</b></sub></a><br /><a href="https://www.linkedin.com/in/lucasbarbosadev1/" title="Cubos Academy">👨‍💻</a></td>
+  </tr>
+</table>
+
+---
+
+
+## 📝 Licença
+
+<!-- Este projeto esta sobe a licença [MIT](./LICENSE). -->
+
+Feito com ❤️ por Lucas Barbosa 👋🏽 [Entre em contato!](https://www.linkedin.com/in/lucasbarbosadev1/)
